@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+:root{
+    /*Variables de colores*/
+    --white: #FFFFFF;
+    --very-light-pink:#C7C7C7;
+    --black: #000000;
+    --text-input-field: #f7f7f7;
+    --dark: #232830;
+    --hospital-green: #ACD9B2;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 70.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.login-container .logo {
+    width: 100%;
+    height: 60px;
+    align-self:center;
+    margin-top: 140px;    
+}
+
+.login-container-form label {   
+    display: block;
+    margin-left: 40px;
+    margin-top: 70px;
+    font-size: 14px;
+    
+    
+    
+}
+
+
+.login-container-form .login-email {
+    width: 90%;
+    height: 50px;
+    background-color: var(--text-input-field);
+    border-radius: 7px;
+    border: 0;
+    margin-left: 39px;
+    padding-left: 5px;
+
+}
+
+
+
+.login-container-form .login-password {
+    width: 90%;
+    height: 50px;
+    background-color: var(--text-input-field);
+    border-radius: 7px;
+    border: 0;
+    margin-left: 39px;
+    padding-left: 5px;
+}
+
+
+.login-container .login-buttom {
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 80px;
+    background-color: var(--hospital-green);
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 15px;
+
+}
+
+.login-container .forgot-password {
+    height: 10%;
+    text-align: center;
+    margin-top: 50px;
+    color: var(--hospital-green);
+    display: block;
+    text-decoration: none ;
+    font-size: 17px;
+}
+
+
+.login-container .login-signup {
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    border: 3px solid  var(--hospital-green);
+    border-radius: 7px;
+    margin-top: 110px;
+    background-color: var(--white);
+    padding: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--hospital-green);
+}
+
+
+
+/* RECUPERAR CUENTA */
+
+.recovery-container .logo {
+    width: 100%;
+    height: 40px;
+    align-self:center;
+    margin-top: 110px;  
+}
+
+
+.recovery-container-form h2 {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.recovery-container-form p {
+    height: 100%;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--very-light-pink);
+}
+
+.recovery-container-form label {
+    display: block;
+    margin-left: 40px;
+    margin-top: 70px;
+    font-size: 14px;
+}
+
+
+.recovery-container-form .recovery-email {
+    width: 90%;
+    height: 50px;
+    background-color: var(--text-input-field);
+    border-radius: 7px;
+    border: 0;
+    margin-left: 39px;
+    padding-left: 5px;
+}
+
+
+
+.recovery-container .buttom-login-recovery {
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 80px;
+    background-color: var(--hospital-green);
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 15px;
+}
+
+
+.recovery-container .recovery-back {
+    height: 10%;
+    text-align: center;
+    margin-top: 50px;
+    color: var(--hospital-green);
+    display: block;
+    text-decoration: none ;
+    font-size: 17px;
+}
+
+
+
+/* CREAR CUENTA */
+
+
+.header-icons-new_account {
+    height: 50px;
+    box-shadow: 0px 5px 7px  var(--very-light-pink);
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 0;
+
+}
+
+.header-icons-new_account .logo {
+    margin-top: 52px;
+    align-self:center;
+    grid-column-start: 2;
+    cursor: pointer;
+     
+}
+
+.header-icons-new_account .shopping-cart {
+    margin-top: 50px;
+    align-self: center;
+    grid-column-start: 4;
+    cursor: pointer;
+    margin-right: 5px;
+    
+}
+
+.header-icons-new_account .menu {
+    align-self: center;
+    grid-column-start: 1;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+
+.new_account-container h2 {
+    width: 100%;
+    height: 15px;
+    padding-left:  39px;
+    margin-top: 100px;
+}
+
+.new_account-form-container label {
+    display: block;
+    margin-left: 40px;
+    margin-top: 70px;
+    font-size: 14px;
+    
+}
+
+.new_account-form-container .name {
+    width: 90%;
+    height: 50px;
+    background-color: var(--text-input-field);
+    border-radius: 7px;
+    border: 0;
+    margin-left: 39px;
+    padding-left: 5px;
+}
+
+
+.new_account-form-container .email {
+    width: 90%;
+    height: 50px;
+    background-color: var(--text-input-field);
+    border-radius: 7px;
+    border: 0;
+    margin-left: 39px;
+    padding-left: 5px;
+}
+
+.new_account-form-container .password {
+    width: 90%;
+    height: 50px;
+    background-color: var(--text-input-field);
+    border-radius: 7px;
+    border: 0;
+    margin-left: 39px;
+    padding-left: 5px;
+}
+
+
+.new_account-container .buttom-create-account {
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 150px;
+    background-color: var(--hospital-green);
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 15px;
+}
+
+
+/* PAGINA PRINCIPAL */
+
+.header-icons-home {
+    height: 50px;
+    box-shadow: 0px 5px 7px  var(--very-light-pink);
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 0;
+
+}
+
+.header-icons-home .logo {
+    margin-top: 52px;
+    align-self:center;
+    grid-column-start: 2;
+    cursor: pointer;
+     
+}
+
+.header-icons-home .shopping-cart {
+    margin-top: 50px;
+    align-self: center;
+    grid-column-start: 4;
+    cursor: pointer;
+    margin-right: 5px;
+    
+}
+
+.header-icons-home .menu {
+    align-self: center;
+    grid-column-start: 1;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+.search-container .search-product {
+    width: 90%;
+    height: 50px;
+    background-color: var(--text-input-field);
+    border-radius: 7px;
+    border: 0;
+    margin-top: 25px;
+    margin-left: 23px;
+    padding-left: 50px;    
+
+}
+
+
+
+.tips-products-container {
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.tips-products-container a {
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--very-light-pink);
+
+}
+
+.tips-products-container .all {
+    border: 2px solid  var(--hospital-green);
+    border-radius: 7px;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+        
+}
+
+
+.order-container {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;   
+    width: 92%;
+    
+}
+
+.order-container .text-most {
+    margin-top: -14.6px;
+    margin-left: 115px;
+    font-size: 13px;
+    color: var(--very-light-pink);
+    
+
+}
+
+.order-container .text-order {
+    font-size: 13px;
+    color: var(--black);
+    
+}
+
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.articles-container .products-container {
+    width: 170px;
+    height: 120px;
+    margin-top: 35px;
+    margin-bottom: 100px;
+    
+}
+
+.products-container .refrigerator {
+    border-radius: 35px;
+    width: 100%;
+}
+
+.products-container .refrigerator-retro {
+    border-radius: 35px;
+    width: 100%;
+}
+
+
+.products-container h3 {
+    margin-top: -35px;
+    margin-left: 6px;
+}
+
+.products-container p {
+    margin-left: 6px;
+}
+
+
+.products-container .add-to-cart{
+    width: 40px;
+    margin-left: 120px;
+    cursor: pointer;
+
+}
+
+
+.products-container .added-to-cart{
+    width: 40px;
+    margin-left: 120px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
